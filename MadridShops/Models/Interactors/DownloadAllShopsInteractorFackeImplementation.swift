@@ -24,6 +24,8 @@ class DownloadAllShopsInteractorFackeImplementation: DownloadAllShopsInteractor 
             shop.image = "ranaFotografa"
             shop.openingHours = "09:00 - 14:00  17:00 - 20:30"
             shop.description = "Nuestra tienda es una prestigiosa marca de ropa de la mas alta gama."
+
+            
             shops.add(shop: shop)
         }
         OperationQueue.main.addOperation {

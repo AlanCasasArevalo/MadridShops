@@ -20,10 +20,8 @@ class ShopCollectionViewCell: UICollectionViewCell {
         self.shop = shop
         
         self.shopLabel.text = shop.name
-        self.shopImage.image = UIImage(named: shop.image)
-        
+        self.shop?.logo.loadImage(into: shopImage)
         
     }
-    
     
 }
